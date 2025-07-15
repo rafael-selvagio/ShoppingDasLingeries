@@ -1,6 +1,6 @@
 const produtos = [
   { 
-    nome: "Sutiãa Push-Up Renda", 
+    nome: "Sutiãaa Push-Up Renda", 
     valor_venda: "R$ 49,90", 
     tamanhos: ["P", "M", "G"], 
     foto: "sutia1.png", 
