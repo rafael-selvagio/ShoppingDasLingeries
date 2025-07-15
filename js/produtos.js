@@ -1,0 +1,22 @@
+const produtos = [
+  { 
+    nome: "Sutiãa Push-Up Renda", 
+    valor_venda: "R$ 49,90", 
+    tamanhos: ["P", "M", "G"], 
+    foto: "sutia1.png", 
+    categoria: "sutia" },
+  { nome: "Calcinha Fio Dental Microfibra", valor_venda: "R$ 19,90", tamanhos: ["P", "M", "G"], foto: "calcinha1.png", categoria: "calcinha" },
+  { nome: "Conjunto Renda Bordô", valor_venda: "R$ 69,90", tamanhos: ["P", "M", "G"], foto: "conjunto1.png", categoria: "conjunto" },
+  { nome: "Body Transparente Floral", valor_venda: "R$ 89,90", tamanhos: ["P", "M", "G"], foto: "body1.png", categoria: "body" },
+  { nome: "Baby Doll Poá Rosê", valor_venda: "R$ 59,90", tamanhos: ["P", "M", "G"], foto: "babydoll1.png", categoria: "baby_doll" },
+  { nome: "Fantasia Policial Sexy", valor_venda: "R$ 109,90", tamanhos: ["único"], foto: "fantasia1.png", categoria: "fantasia" },
+  { nome: "Cinta Modeladora Alta Compressão", valor_venda: "R$ 79,90", tamanhos: ["M", "G", "GG"], foto: "modeladora1.png", categoria: "lingerie_modeladora" },
+  { nome: "Cueca Boxer Modal Preta", valor_venda: "R$ 29,90", tamanhos: ["M", "G", "GG"], foto: "cueca1.png", categoria: "cueca" },
+  { nome: "Pijama Masculino Inverno", valor_venda: "R$ 79,90", tamanhos: ["M", "G", "GG"], foto: "pijama_m1.png", categoria: "pijama_masculino" },
+  { nome: "Pijama Infantil Estampado", valor_venda: "R$ 49,90", tamanhos: ["4", "6", "8"], foto: "pijama_i1.png", categoria: "pijama_infantil" },
+  { nome: "Biquíni Top Cortininha", valor_venda: "R$ 59,90", tamanhos: ["P", "M", "G"], foto: "biquini1.png", categoria: "biquini" },
+  { nome: "Maiô Estampado Tropical", valor_venda: "R$ 69,90", tamanhos: ["P", "M", "G"], foto: "maio1.png", categoria: "maiô" },
+  { nome: "Sunga Listrada", valor_venda: "R$ 39,90", tamanhos: ["M", "G", "GG"], foto: "sunga1.png", categoria: "sunga" },
+  { nome: "Meia-calça Fio 15", valor_venda: "R$ 24,90", tamanhos: ["único"], foto: "meia_calca1.png", categoria: "meia_calca" },
+  { nome: "Organizador de Lingerie", valor_venda: "R$ 39,90", tamanhos: ["único"], foto: "organizador1.png", categoria: "organizador_lingerie" },
+];
