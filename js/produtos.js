@@ -1,22 +1,29 @@
 const produtos = [
-  { 
-    nome: "Sutiãaa Push-Up Renda", 
-    valor_venda: "R$ 49,90", 
-    tamanhos: ["P", "M", "G"], 
-    foto: "sutia1.png", 
-    categoria: "sutia" },
-  { nome: "Calcinha Fio Dental Microfibra", valor_venda: "R$ 19,90", tamanhos: ["P", "M", "G"], foto: "calcinha1.png", categoria: "calcinha" },
-  { nome: "Conjunto Renda Bordô", valor_venda: "R$ 69,90", tamanhos: ["P", "M", "G"], foto: "conjunto1.png", categoria: "conjunto" },
-  { nome: "Body Transparente Floral", valor_venda: "R$ 89,90", tamanhos: ["P", "M", "G"], foto: "body1.png", categoria: "body" },
-  { nome: "Baby Doll Poá Rosê", valor_venda: "R$ 59,90", tamanhos: ["P", "M", "G"], foto: "babydoll1.png", categoria: "baby_doll" },
-  { nome: "Fantasia Policial Sexy", valor_venda: "R$ 109,90", tamanhos: ["único"], foto: "fantasia1.png", categoria: "fantasia" },
-  { nome: "Cinta Modeladora Alta Compressão", valor_venda: "R$ 79,90", tamanhos: ["M", "G", "GG"], foto: "modeladora1.png", categoria: "lingerie_modeladora" },
-  { nome: "Cueca Boxer Modal Preta", valor_venda: "R$ 29,90", tamanhos: ["M", "G", "GG"], foto: "cueca1.png", categoria: "cueca" },
-  { nome: "Pijama Masculino Inverno", valor_venda: "R$ 79,90", tamanhos: ["M", "G", "GG"], foto: "pijama_m1.png", categoria: "pijama_masculino" },
-  { nome: "Pijama Infantil Estampado", valor_venda: "R$ 49,90", tamanhos: ["4", "6", "8"], foto: "pijama_i1.png", categoria: "pijama_infantil" },
-  { nome: "Biquíni Top Cortininha", valor_venda: "R$ 59,90", tamanhos: ["P", "M", "G"], foto: "biquini1.png", categoria: "biquini" },
-  { nome: "Maiô Estampado Tropical", valor_venda: "R$ 69,90", tamanhos: ["P", "M", "G"], foto: "maio1.png", categoria: "maiô" },
-  { nome: "Sunga Listrada", valor_venda: "R$ 39,90", tamanhos: ["M", "G", "GG"], foto: "sunga1.png", categoria: "sunga" },
-  { nome: "Meia-calça Fio 15", valor_venda: "R$ 24,90", tamanhos: ["único"], foto: "meia_calca1.png", categoria: "meia_calca" },
-  { nome: "Organizador de Lingerie", valor_venda: "R$ 39,90", tamanhos: ["único"], foto: "organizador1.png", categoria: "organizador_lingerie" },
+  /*{ nome: "Sutiãaa Push-Up Renda", valor_venda: "R$ 49,90", tamanhos: ["P", "M", "G"], foto: "sutia1.png", categoria: "sutia" },*/
+
+
+
+  { nome: "Cueca Plus Pollo", valor_venda: "R$ 45,52", tamanhos: ["XG (48)"], foto: "cueca1.jpeg", categoria: "cueca" },
+  { nome: "Cueca boxer Junior", valor_venda: "R$ 38,52", tamanhos: ["G"], foto: "cueca2.jpeg", categoria: "cueca" },
+  { nome: "Cueca Algodão Júlio", valor_venda: "R$ 32,96", tamanhos: ["GG"], foto: "cueca3.jpeg", categoria: "cueca" },
+  { nome: "Cueca Algodão Júlio", valor_venda: "R$ 32,96", tamanhos: ["M"], foto: "cueca4.jpeg", categoria: "cueca" },
+  { nome: "Short de dormir masc", valor_venda: "R$ 35,52", tamanhos: ["M"], foto: "cueca5.jpeg", categoria: "cueca" },
+  { nome: "Cueca boxer Hitalo", valor_venda: "R$ 38,06", tamanhos: ["G"], foto: "cueca6.jpeg", categoria: "cueca" , descricao: "Com microfuros anti-transpirante"},
+  { nome: "Cueca boxer Hitalo", valor_venda: "R$ 38,06", tamanhos: ["M"], foto: "cueca7.jpeg", categoria: "cueca" , descricao: "Com microfuros anti-transpirante"},
+  { nome: "Cueca boxer Hitalo", valor_venda: "R$ 38,06", tamanhos: ["M"], foto: "cueca8.jpeg", categoria: "cueca" , descricao: "Com microfuros anti-transpirante"},
+  { nome: "Cueca boxer Luiz", valor_venda: "R$ 31,00", tamanhos: ["M"], foto: "cueca9.jpeg", categoria: "cueca" },
+  { nome: "Cueca boxer Pollo", valor_venda: "R$ 34,96", tamanhos: ["M"], foto: "cueca10.jpeg", categoria: "cueca" },
+  { nome: "Cueca boxer Luiz", valor_venda: "R$ 31,00", tamanhos: ["P"], foto: "cueca11.jpeg", categoria: "cueca" },
+  { nome: "Cueca boxer Brian", valor_venda: "R$ 34,52", tamanhos: ["P"], foto: "cueca12.jpeg", categoria: "cueca" },
+  { nome: "Cueca boxer infantil Pedro", valor_venda: "R$ 17,50", tamanhos: ["GG"], foto: "cueca13.jpeg", categoria: "cueca" },
+
+  { nome: "Cueca boxer infantil Theo", valor_venda: "R$ 14,96", tamanhos: ["GG"], foto: "cueca14.jpeg", categoria: "cueca" },
+  { nome: "Cueca juvenil Pollo", valor_venda: "R$ 25,96", tamanhos: ["GG"], foto: "cueca15.jpeg", categoria: "cueca" },
+  { nome: "Cueca juvenil Pollo", valor_venda: "R$ 25,96", tamanhos: ["GG"], foto: "cueca16.jpeg", categoria: "cueca" },
+  { nome: "Cueca boxer Junior", valor_venda: "R$ 38,52", tamanhos: ["GG"], foto: "cueca17.jpeg", categoria: "cueca" },
+  { nome: "Cueca boxer Hitalo", valor_venda: "R$ 38,06", tamanhos: ["GG"], foto: "cueca18.jpeg", categoria: "cueca", descricao: "Com microfuros anti-transpirante" },
+
+  { nome: "Cueca boxer Pollo", valor_venda: "R$ 34,96", tamanhos: ["GG"], foto: "cueca19.jpeg", categoria: "cueca" },
+  { nome: "Cueca algodão Júlio", valor_venda: "R$ 32,96", tamanhos: ["GG"], foto: "cueca20.jpeg", categoria: "cueca" },
+
 ];
