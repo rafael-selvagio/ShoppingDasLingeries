@@ -49,6 +49,7 @@ function criarProdutoHTML(produto) {
           ${produto.tamanhos ? `<span class="produto-tamanhos">Tamanhos: ${produto.tamanhos.join(', ')}</span>` : ''}
         </div>
         <span class="produto-categoria">${produto.categoria}</span>
+        ${produto.descricao ? `<h6 class="produto-descricao">${produto.descricao}</h6>` : ''}
       </div>
     </div>
   `;
