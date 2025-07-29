@@ -4,11 +4,11 @@ const produtos = [
 
 
   { nome: "Cueca Plus Pollo", valor_venda: "R$ 45,52", tamanhos: ["XG (48)"], foto: "cueca1.jpeg", categoria: "cueca" },
-  { nome: "Cueca boxer Junior", valor_venda: "R$ 38,52", tamanhos: ["G"], foto: "cueca2.jpeg", categoria: "cueca" },
+  
   { nome: "Cueca Algodão Júlio", valor_venda: "R$ 32,96", tamanhos: ["GG"], foto: "cueca3.jpeg", categoria: "cueca" },
   { nome: "Cueca Algodão Júlio", valor_venda: "R$ 32,96", tamanhos: ["M"], foto: "cueca4.jpeg", categoria: "cueca" },
   { nome: "Short de dormir masc", valor_venda: "R$ 35,52", tamanhos: ["M"], foto: "cueca5.jpeg", categoria: "cueca" },
-  { nome: "Cueca boxer Hitalo", valor_venda: "R$ 38,06", tamanhos: ["G"], foto: "cueca6.jpeg", categoria: "cueca" , descricao: "Com microfuros anti-transpirante"},
+  
   { nome: "Cueca boxer Hitalo", valor_venda: "R$ 38,06", tamanhos: ["M"], foto: "cueca7.jpeg", categoria: "cueca" , descricao: "Com microfuros anti-transpirante"},
   { nome: "Cueca boxer Hitalo", valor_venda: "R$ 38,06", tamanhos: ["M"], foto: "cueca8.jpeg", categoria: "cueca" , descricao: "Com microfuros anti-transpirante"},
   { nome: "Cueca boxer Luiz", valor_venda: "R$ 31,00", tamanhos: ["M"], foto: "cueca9.jpeg", categoria: "cueca" },
