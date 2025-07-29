@@ -19,7 +19,6 @@ function tratarErroImagem(img) {
   img.style.objectPosition = 'center';
 }
 
-// Função para criar HTML do produto otimizado
 function criarProdutoHTML(produto) {
   return `
     <div class="produto-card">
@@ -33,6 +32,21 @@ function criarProdutoHTML(produto) {
             width="900"
             height="900"
           >
+
+          ${produto.foto2 ? `
+            <button class="btn-ver-foto2" data-foto2="img/${produto.foto2}" aria-label="Ver segunda foto">
+              Ver mais
+            </button>
+            <button 
+              class="btn-voltar-foto" 
+              data-foto1="img/${produto.foto}" 
+              style="display: none;" 
+              aria-label="Voltar para a primeira foto"
+            >
+              Voltar
+            </button>
+          ` : ''}
+
           <div class="produto-overlay">
             <button class="btn-adicionar" data-produto="${produto.nome}">
               <span class="icone-carrinho">🛒</span>
@@ -54,6 +68,7 @@ function criarProdutoHTML(produto) {
     </div>
   `;
 }
+
 
 // Exibir produtos na página
 function exibirProdutos() {
@@ -402,3 +417,36 @@ document.addEventListener('keydown', (e) => {
     e.preventDefault();
   }
 });
+
+document.addEventListener("click", function (e) {
+  const isVerMais = e.target.classList.contains("btn-ver-foto2");
+  const isVoltar = e.target.classList.contains("btn-voltar-foto");
+
+  if (isVerMais || isVoltar) {
+    const botao = e.target;
+    const card = botao.closest(".produto-imagem-wrapper");
+    const imagem = card.querySelector("img.produto-imagem");
+
+    const btnVerMais = card.querySelector(".btn-ver-foto2");
+    const btnVoltar = card.querySelector(".btn-voltar-foto");
+
+    if (isVerMais) {
+      const novaSrc = botao.getAttribute("data-foto2");
+      if (imagem && novaSrc) {
+        imagem.src = novaSrc;
+        btnVerMais.style.display = "none";
+        btnVoltar.style.display = "inline-block";
+      }
+    }
+
+    if (isVoltar) {
+      const originalSrc = botao.getAttribute("data-foto1");
+      if (imagem && originalSrc) {
+        imagem.src = originalSrc;
+        btnVoltar.style.display = "none";
+        btnVerMais.style.display = "inline-block";
+      }
+    }
+  }
+});
+
