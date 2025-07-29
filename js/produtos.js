@@ -26,4 +26,15 @@ const produtos = [
   { nome: "Cueca boxer Pollo", valor_venda: "R$ 34,96", tamanhos: ["GG"], foto: "cueca19.jpeg", categoria: "cueca" },
   { nome: "Cueca algodão Júlio", valor_venda: "R$ 32,96", tamanhos: ["GG"], foto: "cueca20.jpeg", categoria: "cueca" },
 
+  { nome: "Calça Leg suplex", valor_venda: "R$ 73,96", tamanhos: ["GG"], foto: "calca1.jpeg", categoria: "calca" },
+  { nome: "Bermuda bolso", valor_venda: "R$ 66,60", tamanhos: ["P"], foto: "bermuda1.jpeg", categoria: "bermuda" },
+  { nome: "Calça leg Maite", valor_venda: "R$ 144,52", tamanhos: ["P"], foto: "calca2.jpeg", categoria: "calca" },
+  { nome: "Bermuda estampada roxa", valor_venda: "R$ 59,96", tamanhos: ["M"], foto: "bermuda2.jpeg", categoria: "bermuda" },
+  { nome: "Calça Plus Koss", valor_venda: "R$ 119,96", tamanhos: ["48"], foto: "calca3.jpeg", categoria: "calca" },
+  
+  { nome: "Calça Leg Soraya", valor_venda: "R$ 86,00", tamanhos: ["M"], foto: "calca4.jpeg", categoria: "calca" },
+  { nome: "Calça bolha empina", valor_venda: "R$ 145,74", tamanhos: ["GG"], foto: "calca5.jpeg", foto2: "calca5-2.jpeg", categoria: "calca" },
+  { nome: "Calça Plus Koss", valor_venda: "R$ 119,96", tamanhos: ["52"], foto: "calca6.jpeg", categoria: "calca" },
+  { nome: "Short Giulia", valor_venda: "R$ 62,00", tamanhos: ["GG"], foto: "bermuda3.jpeg", categoria: "bermuda" },
+  
 ];
